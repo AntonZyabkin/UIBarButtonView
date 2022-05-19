@@ -62,4 +62,11 @@ class ContactViewController: UIViewController {
             print ("Switch is OFF")
         }
     }
+    @objc func switchIsChange2 (param : UISwitch) {
+        if param.isOn {
+            print ("Swinch is ON")
+        } else {
+            print ("Switch is OFF")
+        }
+    }
 }
